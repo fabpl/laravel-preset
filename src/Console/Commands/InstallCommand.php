@@ -30,6 +30,7 @@ final class InstallCommand extends Command
             'laravel/telescope',
             'pestphp/pest',
             'pestphp/pest-plugin-laravel',
+            'pestphp/pest-plugin-livewire',
             'rector/rector',
         ])) {
             return self::FAILURE;

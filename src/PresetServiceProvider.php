@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Fabpl\Preset;
 
-use Illuminate\Support\ServiceProvider;
 use Fabpl\Preset\Console\Commands\InstallCommand;
+use Illuminate\Support\ServiceProvider;
 
 final class PresetServiceProvider extends ServiceProvider
 {
